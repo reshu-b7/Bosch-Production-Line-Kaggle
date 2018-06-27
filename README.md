@@ -16,7 +16,7 @@ control test. The features of each part are anonymous and are represented in a w
 A simple exploration of data shows that the class label has 6879  positive labels compared to 1176868 negative labels giving a ratio of 1:172. This leads to a class imbalanced dataset.The SMOTE and undersampling combination allows us to create a hybrid dataset. Synthetic sampling increases the percentage of the minority class without replacement. We apply an oversampling of 100% to get double the amount of
 minority classes present. Similarly, we apply an undersampling of 200% to get majority classes as twice the number of minority classes. By applying such a blend of both sampling techniques, the initial bias of the learner turns towards the minority class also.
 
-![Alt text](/screenshots/feature.png)
+![Alt text](/screenshots/feature.jpeg)
 
 
 The numeric data contains 970 variables all of which may not be important to determine the quality factor of the manufactured product. XGBoost is one of the algorithms that can be used to determine importance of features for numerical group of data only. It generates the top features with highest importance categorized by the value of gain. We select top 20 features given below from the entire dataset to carry out further analysis on them.
@@ -63,7 +63,7 @@ Hence we present a more efficient methodology to deal with the volume, variabili
 
 <h3>FILES: </h3>
 
-xgboost.R= modeling with R
+xgboost.R= modeling with R </br>
 plots.R= plotting data
 
 
