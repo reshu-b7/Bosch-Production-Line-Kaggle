@@ -1,4 +1,4 @@
-# Boschh-Production-Line-Kaggle
+# Bosch-Production-Line-Kaggle
 
 The main objective of this prpject is to understand the manufacturing process at Bosch and explore their production lines and stations
 with advanced analytics to refine their productivity.
